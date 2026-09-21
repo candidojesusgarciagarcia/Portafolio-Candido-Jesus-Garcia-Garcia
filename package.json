@@ -1,0 +1,16 @@
+{
+  "name": "Portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^13.4.0",
+    "lucide-react": "^1.47.0"
+  }
+}
