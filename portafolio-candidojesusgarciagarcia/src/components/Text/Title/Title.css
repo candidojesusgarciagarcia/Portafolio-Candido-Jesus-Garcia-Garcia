@@ -1,0 +1,16 @@
+.title {
+    min-height: 25px;
+}
+
+.title-text {
+    animation: background-pan 5.5s linear infinite;
+    background: linear-gradient(to right, rgb(192, 38, 211), rgb(219, 39, 119), rgb(192, 38, 211));
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    font-family: Arial;
+    font-weight: bold;
+    font-size:5vw;
+}

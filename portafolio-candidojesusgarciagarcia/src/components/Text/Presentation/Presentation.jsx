@@ -3,7 +3,7 @@ import "./Presentation.css";
 function Presentation({ texto1, texto2, texto3 }) {
   return (
     <>
-      <h1>
+      <h1 className="presentation">
         {texto1}
         <span class="magic">
           <span class="magic-star">
