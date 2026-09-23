@@ -1,0 +1,8 @@
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 -10px;
+    border-radius: 100%;
+    border: 5px solid linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+}

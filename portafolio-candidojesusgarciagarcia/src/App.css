@@ -1,0 +1,35 @@
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.app::before,
+.app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  transition: opacity 900ms ease;
+}
+
+.app::before {
+  background: conic-gradient(at 50% 0%, rgb(0, 0, 0), rgb(27, 8, 41), rgb(0, 0, 0));
+  opacity: 1;
+}
+
+.app::after {
+  background:
+    radial-gradient(at 50% 100%, rgb(52, 17, 80), rgb(18, 6, 27), rgb(9, 3, 14));
+  opacity: 0;
+}
+
+.app--main::before {
+  opacity: 0;
+}
+
+.app--main::after {
+  opacity: 1;
+}

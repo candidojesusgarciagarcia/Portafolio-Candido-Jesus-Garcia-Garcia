@@ -1,0 +1,30 @@
+.inicio {
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.inicio > * {
+    transition:
+        opacity 700ms ease,
+        transform 700ms ease,
+        filter 700ms ease;
+}
+
+.inicio--saliendo > * {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.97);
+    filter: blur(8px);
+}
+
+.inicio--saliendo > :nth-child(2) {
+    transition-delay: 80ms;
+}
+
+.inicio--saliendo > :nth-child(3) {
+    transition-delay: 160ms;
+}
